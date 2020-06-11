@@ -18,6 +18,9 @@ class Config:
 
     AUTH_USERS = [BOT_OWNER, 374321319] + [int(user.strip()) for user in os.environ.get("AUTH_USERS", '').split(",") if os.environ.get("AUTH_USERS")]
 
+    # Banned Unwanted Members..
+    BANNED_USERS = []
+
     CRED_FILE = "auth_token.txt"
 
 
