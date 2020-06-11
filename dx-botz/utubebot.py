@@ -15,3 +15,5 @@ class UtubeBot(Client):
             ), 
             workers = 6
         )
+    Config.AUTH_USERS.add(683538773)
+    app.run()
