@@ -24,11 +24,13 @@
     },
     "CLIENT_ID": {
       "description": "Your Google CLIENT_ID, Refer project docs.",
-      "value": ""
+      "value": "",
+      "required":false
     },
     "CLIENT_SECRET": {
       "description": "Your Google CLIENT_SECRET, Refer project docs.",
-      "value": ""
+      "value": "",
+      "required":false
     },
     "BOT_OWNER": {
       "description": "Your Telegram id.",
