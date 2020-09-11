@@ -40,6 +40,8 @@ $ virtualenv venv
 $ source venv/bin/activate
 
 ```
+Deploy now 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/naveen9329/TG-URL-Uploader/tree/patch-4)
 
 **Environment Variables**
 
